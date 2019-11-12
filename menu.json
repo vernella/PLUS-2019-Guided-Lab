@@ -1,0 +1,8 @@
+{ "text": "", "formats": [{
+  "screen": { "record format name": "menu" },
+  "items": [
+    { "id": "Layout1", "field type": "layout", "css class": "office-copy-defaults", "template": "css panel", "header text": "Admin menu", "header theme": "office-copy-gray-header", "body theme": "office-copy-white-body", "height": "120px", "width": "187px", "css class 2": "office-copy-panel", "center horizontally": "true", "center vertically": "true" }, 
+    { "id": "GraphicButton1", "field type": "graphic button", "css class": "blueprint-button", "value": "Submit request", "left": "5px", "top": "5px", "width": "175px", "icon position": "left", "css class 2": "blueprint-alt-defaults", "css class 3": "no-icon", "height": "30px", "response": { "fieldName": "form", "customTrue": "", "customFalse": "", "dataType": "indicator", "formatting": "Indicator", "indFormat": "1 / 0" }, "layout": "Layout1", "container": "1" }, 
+    { "id": "GraphicButton1_copy", "field type": "graphic button", "css class": "blueprint-button-secondary", "value": "Requests list", "icon position": "left", "left": "5px", "top": "40px", "height": "30px", "width": "175px", "css class 2": "blueprint-defaults", "css class 3": "no-icon", "response": { "fieldName": "list", "customTrue": "", "customFalse": "", "dataType": "indicator", "formatting": "Indicator", "indFormat": "1 / 0" }, "layout": "Layout1", "container": "1" }
+  ]
+}], "keywords": [], "long name aliases": true }
